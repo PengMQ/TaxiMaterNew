@@ -196,10 +196,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaxiMeterTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TaxiMeterTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="4" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+            <state line="53" column="4" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.8117155">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,16 +210,16 @@
       <file leaf-file-name="TaxiMeter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="29" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+            <state line="25" column="36" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NightTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NightTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/war/NightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="20" selection-end="20" vertical-scroll-proportion="0.11297071">
+            <state line="18" column="42" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,10 +227,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/war/Day.java">
+      <file leaf-file-name="Night.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/war/Night.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="48" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="4" column="42" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -251,11 +251,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/war/TaxiMeter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/war/TimeDetectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/Day.java" />
+        <option value="$PROJECT_DIR$/src/main/java/war/Night.java" />
         <option value="$PROJECT_DIR$/src/test/java/war/NightTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/war/TaxiMeter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java" />
       </list>
     </option>
   </component>
@@ -443,51 +444,7 @@
       <recent name="war" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NightTest.shouldReturnBasePriceOfDay">
-    <configuration default="false" name="TaxiMeterTest.shouldPay8InBaseDistance" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay8InBaseDistance" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TaxiMeterTest.shouldPay10WhenDistanceIs4KM" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay10WhenDistanceIs4KM" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TaxiMeterTest.shouldPay10WhenInBaseDistanceAndNight2">
     <configuration default="false" name="TaxiMeterTest.shouldPay8WhenDistanceIs3_5KM" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="TaxiMeter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -539,6 +496,50 @@
       <option name="PACKAGE_NAME" value="war" />
       <option name="MAIN_CLASS_NAME" value="war.NightTest" />
       <option name="METHOD_NAME" value="shouldReturnBasePriceOfDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightTest.shouldReturnBasePriceOfNight" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.NightTest" />
+      <option name="METHOD_NAME" value="shouldReturnBasePriceOfNight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiMeterTest.shouldPay10WhenInBaseDistanceAndNight2" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
+      <option name="METHOD_NAME" value="shouldPay10WhenInBaseDistanceAndNight2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -629,11 +630,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay8InBaseDistance" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay10WhenDistanceIs4KM" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay8WhenDistanceIs3_5KM" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay10WhenInBaseDistanceAndNight" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NightTest.shouldReturnBasePriceOfDay" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay8WhenDistanceIs3_5KM" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay10WhenInBaseDistanceAndNight" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NightTest.shouldReturnBasePriceOfDay" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NightTest.shouldReturnBasePriceOfNight" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay10WhenInBaseDistanceAndNight2" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -826,9 +827,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/war/Night.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="4" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+        <state line="4" column="42" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/war/NightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -837,21 +845,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+        <state line="25" column="36" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/war/Day.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/war/NightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="20" selection-end="20" vertical-scroll-proportion="0.11297071">
+        <state line="53" column="4" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.8117155">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

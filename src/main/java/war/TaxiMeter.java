@@ -21,4 +21,8 @@ public class TaxiMeter {
         }
         return DAY_BASE_PRICE;
     }
+
+    public double calculate2(double distance, Night night) {
+        return night.getBasePrice();
+    }
 }

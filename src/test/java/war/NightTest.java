@@ -8,18 +8,17 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class NightTest {
-    private Day day;
+    private Night night;
 
     @Before
     public void setUp() throws Exception {
-        day = new Day();
+        night = new Night();
     }
 
     @Test
-    public void shouldReturnBasePriceOfDay() throws Exception {
-        double basePrice = day.getBasePrice();
-        assertThat(basePrice, is(8.0));
-
+    public void shouldReturnBasePriceOfNight() throws Exception {
+        double basePrice = night.getBasePrice();
+        assertThat(basePrice, is(10.0));
 
     }
 }

@@ -44,4 +44,12 @@ public class TaxiMeterTest {
         assertThat(actualPayment,is(10.0));
     }
 
+    @Test
+    public void shouldPay10WhenInBaseDistanceAndNight2() throws Exception {
+        Night night = new Night();
+        double actualPayment = taxiMeter.calculate2(2.0, night);
+        assertThat(actualPayment,is(10.0));
+
+    }
+
 }
