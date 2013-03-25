@@ -21,4 +21,10 @@ public class NightTest {
         assertThat(basePrice, is(10.0));
 
     }
+
+    @Test
+    public void shouldReturnUnitPriceOfNight() throws Exception {
+        double unitPrice = night.getUnitPrice();
+        assertThat(unitPrice, is(3.0));
+    }
 }
