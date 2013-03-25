@@ -192,19 +192,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaxiMeterTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TaxiMeterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="59" selection-start="2715" selection-end="2715" vertical-scroll-proportion="1.8920455">
+            <state line="9" column="17" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaxiMeter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TaxiMeter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+            <state line="16" column="8" selection-start="395" selection-end="395" vertical-scroll-proportion="0.07954545">
               <folding />
             </state>
           </provider>
@@ -500,13 +500,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TaxiMeterTest">
-    <configuration default="false" name="TaxiMeterTest.shouldPay30WhenDistanceIs4_5KMInChengdu" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TaxiMeterTest.shouldPay8WhenInBaseDistanceInDay" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="TaxiMeter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="war" />
       <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay30WhenDistanceIs4_5KMInChengdu" />
+      <option name="METHOD_NAME" value="shouldPay8WhenInBaseDistanceInDay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -522,13 +522,57 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TaxiMeterTest.shouldPay31_5WhenChengduIs4AndShuangliuIs1" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TaxiMeterTest.shouldPay10WhenDistanceIs4KMInDay" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="TaxiMeter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="war" />
       <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay31_5WhenChengduIs4AndShuangliuIs1" />
+      <option name="METHOD_NAME" value="shouldPay10WhenDistanceIs4KMInDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiMeterTest.shouldPay30WhenShuangliuIs3KMAndChengduIs2KM" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
+      <option name="METHOD_NAME" value="shouldPay30WhenShuangliuIs3KMAndChengduIs2KM" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
+      <option name="METHOD_NAME" value="shouldPay28WhenDistanceIs2KMInChengdu" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -552,50 +596,6 @@
       <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShuangliuTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.ShuangliuTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay28WhenDistanceIs2KMInChengdu" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -685,11 +685,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay30WhenDistanceIs4_5KMInChengdu" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay31_5WhenChengduIs4AndShuangliuIs1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShuangliuTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay8WhenInBaseDistanceInDay" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay10WhenDistanceIs4KMInDay" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay30WhenShuangliuIs3KMAndChengduIs2KM" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -930,9 +930,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="26" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -944,9 +944,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="59" selection-start="2715" selection-end="2715" vertical-scroll-proportion="1.8920455">
+        <state line="16" column="8" selection-start="395" selection-end="395" vertical-scroll-proportion="0.07954545">
           <folding />
         </state>
       </provider>

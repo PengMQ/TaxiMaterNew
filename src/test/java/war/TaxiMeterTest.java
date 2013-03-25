@@ -18,38 +18,38 @@ public class TaxiMeterTest {
     /**************test for chengdu at night******************/
     @Test
     public void shouldPay10WhenInBaseDistanceAtNight() throws Exception {
-        ChengduNight chengduNight = new ChengduNight();
-        double actualPayment = taxiMeter.calculate(2.0, chengduNight);
-        assertThat(actualPayment, is(10.0));
+
+        double payment = taxiMeter.calculateOneCity(new City(2.0, new ChengduNight()));
+        assertThat(payment,is(10.0));
 
     }
 
     @Test
     public void shouldPay13WhenDistanceIs4KMAtNight() throws Exception {
-        ChengduNight chengduNight = new ChengduNight();
-        double actualPayment = taxiMeter.calculate(4.0, chengduNight);
-        assertThat(actualPayment, is(13.0));
+
+        double payment = taxiMeter.calculateOneCity(new City(4.0, new ChengduNight()));
+        assertThat(payment, is(13.0));
     }
 
     @Test
     public void shouldPay10WhenDistanceIs3_5KMAtNight() throws Exception {
-        ChengduNight chengduNight = new ChengduNight();
-        double actualPayment = taxiMeter.calculate(3.5, chengduNight);
-        assertThat(actualPayment, is(10.0));
+
+        double payment = taxiMeter.calculateOneCity(new City(3.5, new ChengduNight()));
+        assertThat(payment,is(10.0));
     }
     /*************test for chengdu in day******************/
     @Test
     public void shouldPay8WhenInBaseDistanceInDay() throws Exception {
-        ChengduDay chengduDay = new ChengduDay();
-        double actualPayment = taxiMeter.calculate(2, chengduDay);
-        assertThat(actualPayment, is(8.0));
+
+        double payment = taxiMeter.calculateOneCity(new City(2.0, new ChengduDay()));
+        assertThat(payment, is(8.0));
     }
 
     @Test
     public void shouldPay10WhenDistanceIs4KMInDay() throws Exception {
-        ChengduDay chengduDay = new ChengduDay();
-        double actualPayment = taxiMeter.calculate(4.0, chengduDay);
-        assertThat(actualPayment, is(10.0));
+
+        double payment = taxiMeter.calculateOneCity(new City(4.0, new ChengduDay()));
+        assertThat(payment, is(10.0));
     }
 
     //shuangliu's car starts form shuangliu

@@ -6,50 +6,41 @@ public class TaxiMeter {
     private static final double BASE_DISTANCE = 3.0;
     public static final double ADDITIONAL_PRICE = 20.0;
 
-    public double calculate(double distance, TimeDetector timeDetector) {
-        if(distance > BASE_DISTANCE){
-            return timeDetector.getBasePrice() + getAdditionalPrice(distance, timeDetector);
-        }
-        return timeDetector.getBasePrice();
-    }
-
-    private double getAdditionalPrice(double distance, TimeDetector timeDetector) {
-        return timeDetector.getUnitPrice() * (int)(distance - BASE_DISTANCE);
-    }
-
-
-
-    public double calculateRegion(City shuangLiu) {
-        if(shuangLiu.getDistance()> BASE_DISTANCE) {
-           return  shuangLiu.getBasePrice() + getAdditionalPriceOfRegion(shuangLiu.getDistance(), shuangLiu);
+    public double calculateOneCity(City city) {
+        if (city.getDistance() > BASE_DISTANCE) {
+            return city.getBasePrice() + calculateAdditionalPriceForFromCity(city);
         }
 
-        return shuangLiu.getBasePrice();
+        return city.getBasePrice();
     }
 
-    private double getAdditionalPriceOfRegion(double distance, City shuangLiu) {
-        return (distance - BASE_DISTANCE) * shuangLiu.getUnitPrice();
-    }
-    //Start from shuangliu
     public double calculateFromShuangliuToChengdu(City shuangliu, City chengdu) {
-        if(chengdu.getDistance() >  0){
-            return calculateRegion(shuangliu) + ADDITIONAL_PRICE + chengdu.getDistance() * chengdu.getUnitPrice();
+        if (chengdu.getDistance() > 0) {
+            return calculateOneCity(shuangliu)
+                    + calculateAdditionalPriceForToCity(chengdu)
+                    + ADDITIONAL_PRICE;
         }
-        return calculateRegion(shuangliu);
+        return calculateOneCity(shuangliu);
 
     }
 
     public double calculateFromChengduToShuangliu(City shuangliu, City chengdu) {
-        if(chengdu.getDistance() > BASE_DISTANCE){
-            return chengdu.getBasePrice() + ADDITIONAL_PRICE
-                    + getAdditionalPriceForShuangliuCarInChengdu(chengdu)
-                    + (int)shuangliu.getDistance() * shuangliu.getUnitPrice();
+        if (chengdu.getDistance() > BASE_DISTANCE) {
+            return chengdu.getBasePrice()
+                    + calculateAdditionalPriceForFromCity(chengdu)
+                    + calculateAdditionalPriceForToCity(shuangliu)
+                    + ADDITIONAL_PRICE;
         }
         return chengdu.getBasePrice() + ADDITIONAL_PRICE;
 
     }
 
-    private double getAdditionalPriceForShuangliuCarInChengdu(City chengdu) {
-        return (chengdu.getUnitPrice() * (int)(chengdu.getDistance() - BASE_DISTANCE));
+    private double calculateAdditionalPriceForToCity(City city) {
+        return (int) city.getDistance() * city.getUnitPrice();
+    }
+
+
+    private double calculateAdditionalPriceForFromCity(City city) {
+        return (int) (city.getDistance() - BASE_DISTANCE) * city.getUnitPrice();
     }
 }
