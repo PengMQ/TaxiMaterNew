@@ -15,40 +15,40 @@ public class TaxiMeterTest {
     public void setUp() throws Exception {
         taxiMeter = new TaxiMeter();
     }
-
+    /**************test for chengdu at night******************/
     @Test
     public void shouldPay10WhenInBaseDistanceAtNight() throws Exception {
-        Night night = new Night();
-        double actualPayment = taxiMeter.calculate(2.0, night);
+        ChengduNight chengduNight = new ChengduNight();
+        double actualPayment = taxiMeter.calculate(2.0, chengduNight);
         assertThat(actualPayment, is(10.0));
 
     }
 
     @Test
     public void shouldPay13WhenDistanceIs4KMAtNight() throws Exception {
-        Night night = new Night();
-        double actualPayment = taxiMeter.calculate(4.0, night);
+        ChengduNight chengduNight = new ChengduNight();
+        double actualPayment = taxiMeter.calculate(4.0, chengduNight);
         assertThat(actualPayment, is(13.0));
     }
 
     @Test
     public void shouldPay10WhenDistanceIs3_5KMAtNight() throws Exception {
-        Night night = new Night();
-        double actualPayment = taxiMeter.calculate(3.5, night);
+        ChengduNight chengduNight = new ChengduNight();
+        double actualPayment = taxiMeter.calculate(3.5, chengduNight);
         assertThat(actualPayment, is(10.0));
     }
-
+    /*************test for chengdu in day******************/
     @Test
     public void shouldPay8WhenInBaseDistanceInDay() throws Exception {
-        Day day = new Day();
-        double actualPayment = taxiMeter.calculate(2, day);
+        ChengduDay chengduDay = new ChengduDay();
+        double actualPayment = taxiMeter.calculate(2, chengduDay);
         assertThat(actualPayment, is(8.0));
     }
 
     @Test
     public void shouldPay10WhenDistanceIs4KMInDay() throws Exception {
-        Day day = new Day();
-        double actualPayment = taxiMeter.calculate(4.0, day);
+        ChengduDay chengduDay = new ChengduDay();
+        double actualPayment = taxiMeter.calculate(4.0, chengduDay);
         assertThat(actualPayment, is(10.0));
     }
 
@@ -56,10 +56,10 @@ public class TaxiMeterTest {
     @Test
     public void shouldPayBasePriceInBaseDistanceInShuangliu() throws Exception {
 
-        ShuangLiu shuangLiu = new ShuangLiu(2.0);
-        ChengDu chengdu = new ChengDu(0.0, new Day());
+        City shuangLiu = new City(2.0,new ShuangliuDay());
+        City chengdu = new City(0.0, new ChengduDay());
 
-        double payment = taxiMeter.calculateBetweenRegions(shuangLiu, chengdu);
+        double payment = taxiMeter.calculateFromShuangliuToChengdu(shuangLiu, chengdu);
 
         assertThat(payment, is(6.0));
 
@@ -68,10 +68,10 @@ public class TaxiMeterTest {
     @Test
     public void shouldPay9WhenDistanceIs5InShuangLiu() throws Exception {
 
-        ShuangLiu shuangliu = new ShuangLiu(5.0);
-        ChengDu chengdu = new ChengDu(0.0, new Day());
+        City shuangliu = new City(5.0,new ShuangliuDay());
+        City chengdu = new City(0.0, new ChengduDay());
 
-        double payment = taxiMeter.calculateBetweenRegions(shuangliu, chengdu);
+        double payment = taxiMeter.calculateFromShuangliuToChengdu(shuangliu, chengdu);
 
         assertThat(payment, is(9.0));
 
@@ -80,10 +80,10 @@ public class TaxiMeterTest {
     @Test
     public void shouldPay30WhenShuangliuIs3KMAndChengduIs2KM() throws Exception {
 
-        ShuangLiu shuangliu = new ShuangLiu(3.0);
-        ChengDu chengdu = new ChengDu(2.0, new Day());
+        City shuangliu = new City(3.0,new ShuangliuDay());
+        City chengdu = new City(2.0, new ChengduDay());
 
-        double actualPayment = taxiMeter.calculateBetweenRegions(shuangliu, chengdu);
+        double actualPayment = taxiMeter.calculateFromShuangliuToChengdu(shuangliu, chengdu);
 
         assertThat(actualPayment, is(30.0));
     }
@@ -92,33 +92,33 @@ public class TaxiMeterTest {
 
     @Test
     public void shouldPay28WhenDistanceIs2KMInChengdu() throws Exception {
-        ShuangLiu shuangliu = new ShuangLiu(0.0);
-        ChengDu chengdu = new ChengDu(2.0, new Day());
-        double actualPayment = taxiMeter.calculate2(shuangliu, chengdu);
+        City shuangliu = new City(0.0,new ShuangliuDay());
+        City chengdu = new City(2.0, new ChengduDay());
+        double actualPayment = taxiMeter.calculateFromChengduToShuangliu(shuangliu, chengdu);
         assertThat(actualPayment, is(28.0));
     }
 
     @Test
     public void shouldPay30WhenDistanceIs4KMInChengdu() throws Exception {
-        ChengDu chengdu = new ChengDu(4.0, new Day());
-        ShuangLiu shuangliu = new ShuangLiu(0.0);
-        double actualPayment = taxiMeter.calculate2(shuangliu, chengdu);
+        City chengdu = new City(4.0, new ChengduDay());
+        City shuangliu = new City(0.0,new ShuangliuDay());
+        double actualPayment = taxiMeter.calculateFromChengduToShuangliu(shuangliu, chengdu);
         assertThat(actualPayment, is(30.0));
     }
 
     @Test
     public void shouldPay30WhenDistanceIs4_5KMInChengdu() throws Exception {
-        ShuangLiu shuangliu = new ShuangLiu(0.0);
-        ChengDu chengdu = new ChengDu(4.5, new Day());
-        double actualPayment = taxiMeter.calculate2(shuangliu, chengdu);
+        City shuangliu = new City(0.0, new ShuangliuDay());
+        City chengdu = new City(4.5, new ChengduDay());
+        double actualPayment = taxiMeter.calculateFromChengduToShuangliu(shuangliu, chengdu);
         assertThat(actualPayment, is(30.0));
     }
 
     @Test
     public void shouldPay31_5WhenChengduIs4AndShuangliuIs1() throws Exception {
-        ShuangLiu shuangliu = new ShuangLiu(1.0);
-        ChengDu chengdu = new ChengDu(4.0, new Day());
-        double actualPayment = taxiMeter.calculate2(shuangliu, chengdu);
+        City shuangliu = new City(1.0, new ShuangliuDay());
+        City chengdu = new City(4.0, new ChengduDay());
+        double actualPayment = taxiMeter.calculateFromChengduToShuangliu(shuangliu, chengdu);
         assertThat(actualPayment,is(31.5));
 
     }

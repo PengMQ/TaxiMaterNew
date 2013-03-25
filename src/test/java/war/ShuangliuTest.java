@@ -8,11 +8,12 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class ShuangliuTest {
-    private ShuangLiu shuangli;
+    private City shuangli;
 
     @Before
     public void setUp() throws Exception {
-        shuangli = new ShuangLiu(0.0);
+        ShuangliuDay shuangliuDay = new ShuangliuDay();
+        shuangli = new City(0.0,shuangliuDay);
     }
 
     @Test
