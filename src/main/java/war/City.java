@@ -22,4 +22,8 @@ public class City{
     public double getDistance() {
         return distance;
     }
+
+    public double getExtraPrice(){
+        return timeDetector.getExtraPrice();
+    }
 }

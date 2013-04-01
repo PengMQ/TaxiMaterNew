@@ -192,73 +192,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaxiMeterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaxiMeter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TaxiMeter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="395" selection-end="395" vertical-scroll-proportion="0.07954545">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShuangliuDay.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/war/ShuangliuDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeDetector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/war/TimeDetector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChengduNightTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/war/ChengduNightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="20" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChengduDay.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChengduNight.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduNight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShuangliuTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/war/ShuangliuTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="21" column="77" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -267,16 +204,54 @@
       <file leaf-file-name="City.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/war/City.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="33" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+            <state line="26" column="33" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChengduDayTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/war/ChengduDayTest.java">
+      <file leaf-file-name="ChengduDay.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+            <state line="16" column="32" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChengduNight.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduNight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="26" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxiMeterTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="0" selection-start="3883" selection-end="3883" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShuangliuDay.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/war/ShuangliuDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="34" selection-start="432" selection-end="432" vertical-scroll-proportion="0.4346591">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeDetector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/war/TimeDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -301,15 +276,17 @@
         <option value="$PROJECT_DIR$/src/test/java/war/NightTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/war/DayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/Night.java" />
-        <option value="$PROJECT_DIR$/src/main/java/war/TimeDetector.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/Day.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/ChengDu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/war/ShuangliuDay.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/ShuangLiu.java" />
         <option value="$PROJECT_DIR$/src/test/java/war/ShuangliuTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/war/TimeDetector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/war/ChengduNight.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/City.java" />
         <option value="$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/war/TaxiMeter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/war/ChengduDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/war/ShuangliuDay.java" />
       </list>
     </option>
   </component>
@@ -499,73 +476,7 @@
       <recent name="war" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TaxiMeterTest">
-    <configuration default="false" name="TaxiMeterTest.shouldPay8WhenInBaseDistanceInDay" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay8WhenInBaseDistanceInDay" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TaxiMeterTest.shouldPay10WhenDistanceIs4KMInDay" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay10WhenDistanceIs4KMInDay" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TaxiMeterTest.shouldPay30WhenShuangliuIs3KMAndChengduIs2KM" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="TaxiMeter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="war" />
-      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
-      <option name="METHOD_NAME" value="shouldPay30WhenShuangliuIs3KMAndChengduIs2KM" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TaxiMeterTest.shouldPay31_5WhenChengduIs4AndShuangliuIs1">
     <configuration default="false" name="TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="TaxiMeter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -584,7 +495,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -596,6 +513,72 @@
       <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiMeterTest.shouldPay30WhenDistanceIs4KMInChengdu" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
+      <option name="METHOD_NAME" value="shouldPay30WhenDistanceIs4KMInChengdu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiMeterTest.shouldPay30WhenDistanceIs4_5KMInChengdu" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
+      <option name="METHOD_NAME" value="shouldPay30WhenDistanceIs4_5KMInChengdu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiMeterTest.shouldPay31_5WhenChengduIs4AndShuangliuIs1" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TaxiMeter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="war" />
+      <option name="MAIN_CLASS_NAME" value="war.TaxiMeterTest" />
+      <option name="METHOD_NAME" value="shouldPay31_5WhenChengduIs4AndShuangliuIs1" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -685,11 +668,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay8WhenInBaseDistanceInDay" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay10WhenDistanceIs4KMInDay" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay30WhenShuangliuIs3KMAndChengduIs2KM" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay28WhenDistanceIs2KMInChengdu" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay30WhenDistanceIs4KMInChengdu" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay30WhenDistanceIs4_5KMInChengdu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxiMeterTest.shouldPay31_5WhenChengduIs4AndShuangliuIs1" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -743,13 +726,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -764,6 +746,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -883,74 +866,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/war/ChengduNightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/war/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/war/ChengduDayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+        <state line="19" column="39" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/war/ShuangliuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-7.2" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="16" selection-start="2839" selection-end="2839" vertical-scroll-proportion="-4.84" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="35" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.42739725" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduNight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/hamcrest/BaseMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/hamcrest/core/Is.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4864865">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/war/ShuangliuDay.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/hamcrest/core/IsEqual.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+        <state line="25" column="46" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.6756757">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/war/TimeDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduNight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/war/TaxiMeterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+        <state line="130" column="0" selection-start="3883" selection-end="3883" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/war/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/war/ShuangliuTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/war/ChengduDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+        <state line="16" column="32" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/war/TaxiMeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="395" selection-end="395" vertical-scroll-proportion="0.07954545">
+        <state line="21" column="77" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/war/ShuangliuDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="432" selection-end="432" vertical-scroll-proportion="0.4346591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

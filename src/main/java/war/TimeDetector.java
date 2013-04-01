@@ -5,4 +5,6 @@ public interface TimeDetector {
     double getBasePrice();
 
     double getUnitPrice();
+
+    double getExtraPrice();
 }
